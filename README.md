@@ -28,4 +28,4 @@
 * Dice Coefficients: 0.97
 * FPS: 12
 
-<img src="output.gif" width="400"/>
+<img src="output_video.gif" />
