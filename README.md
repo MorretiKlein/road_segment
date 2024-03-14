@@ -4,7 +4,8 @@
 ## Define folder
 
 * `GGDataset`: dataset image.
-* `models`: store model resnet_unet "https://drive.google.com/drive/u/0/folders/1RM4TsMeZB22MbZiDui8RRAZRJ-ZeIJud"
+* `models`: store model resnet_unet.h5 and resnet_unet.h5.keras
+"https://drive.google.com/drive/u/0/folders/1RM4TsMeZB22MbZiDui8RRAZRJ-ZeIJud"
 * `model.ipynb`: create model. 
 * `main.ipynb`: result and test
 ## description 
@@ -20,13 +21,10 @@
 4. python -m pip install "tensorflow==2.10"
 5. pip install opencv-python
 6. pip install matplotlib
-
+7. pip install imageio
+8. pip install imageio[ffmpeg]
 ## Result:
 * Accuracy: 98%
 * Dice Coefficients: 0.97
 * FPS: 12
-
-![Road Video](road.mp4)
-![Road Video](output_video.mp4)
-
-
+<img src="output.gif" width="400"/>
